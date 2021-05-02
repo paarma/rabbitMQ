@@ -26,9 +26,9 @@ un mensaje y al ver la consola del punto (1) se puede ver que el mensaje es proc
     * En una tercera consola (ubicandose el la ruta del paso anterior) se ejecuta el productor y se envían varios mensajes ("primer message.", "segundo message..")
     Ejemplo: 
     
-      java -cp .;librerias\amqp-client-5.7.1.jar;librerias\slf4j-api-1.7.26.jar;librerias\slf4j-simple-1.7.26.jar workqueues.NewTask primer message.
-      java -cp .;librerias\amqp-client-5.7.1.jar;librerias\slf4j-api-1.7.26.jar;librerias\slf4j-simple-1.7.26.jar workqueues.NewTask segundo message..
-      java -cp .;librerias\amqp-client-5.7.1.jar;librerias\slf4j-api-1.7.26.jar;librerias\slf4j-simple-1.7.26.jar workqueues.NewTask tercer message...
+      * java -cp .;librerias\amqp-client-5.7.1.jar;librerias\slf4j-api-1.7.26.jar;librerias\slf4j-simple-1.7.26.jar workqueues.NewTask primer message.
+      * java -cp .;librerias\amqp-client-5.7.1.jar;librerias\slf4j-api-1.7.26.jar;librerias\slf4j-simple-1.7.26.jar workqueues.NewTask segundo message..
+      * java -cp .;librerias\amqp-client-5.7.1.jar;librerias\slf4j-api-1.7.26.jar;librerias\slf4j-simple-1.7.26.jar workqueues.NewTask tercer message...
       
  Al revisar las consolas de los consumidores se puede observar como estos mensajes son procesados de manera BALANCEADA a medida que van siendo enviados.
       
